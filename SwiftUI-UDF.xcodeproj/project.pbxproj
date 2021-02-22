@@ -57,6 +57,7 @@
 				66D3821B25E3F58C0087B2C0 /* Assets.xcassets */,
 				66D3822025E3F58C0087B2C0 /* Info.plist */,
 				66D3821D25E3F58C0087B2C0 /* Preview Content */,
+				66D3822825E3F5DF0087B2C0 /* Components */,
 			);
 			path = "SwiftUI-UDF";
 			sourceTree = "<group>";
@@ -67,6 +68,13 @@
 				66D3821E25E3F58C0087B2C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66D3822825E3F5DF0087B2C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +280,7 @@
 				DEVELOPMENT_TEAM = NP78NRZ4Q7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-UDF/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mikael-Melkonyan.SwiftUI-UDF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +302,7 @@
 				DEVELOPMENT_TEAM = NP78NRZ4Q7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-UDF/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mikael-Melkonyan.SwiftUI-UDF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
